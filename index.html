@@ -6,30 +6,30 @@
     <title>Lead Coordinator &middot; Transworld Business Advisors</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
     <style>
         :root {
-            --navy:           #002C8B;
-            --navy-deep:      #062f7b;
-            --navy-light:     #1C4499;
-            --navy-glow:      rgba(0, 44, 139, 0.08);
-            --navy-border:    rgba(0, 44, 139, 0.18);
-            --cream:          #FFFAF6;
-            --cream-dark:     #F4F0EA;
+            --navy:           #00461c;
+            --navy-deep:      #003314;
+            --navy-light:     #1a5c33;
+            --navy-glow:      rgba(0, 70, 28, 0.07);
+            --navy-border:    rgba(0, 70, 28, 0.18);
+            --cream:          #f9fafc;
+            --cream-dark:     #e9f0e0;
             --white:          #FFFFFF;
-            --text:           #063651;
-            --text-light:     #4A6274;
+            --text:           #34394d;
+            --text-light:     #636b6f;
             --gray:           #6B7A8A;
-            --gray-light:     #E8E4DE;
-            --mint:           #81E3AE;
-            --lavender:       #E8D2FF;
+            --gray-light:     #e2e6e3;
+            --gold:           #a5885f;
+            --light-blue:     #d0e6e8;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
         html { scroll-behavior: smooth; }
 
         body {
-            font-family: 'DM Sans', -apple-system, sans-serif;
+            font-family: 'Poppins', -apple-system, sans-serif;
             color: var(--text);
             background: var(--cream);
             line-height: 1.6;
@@ -81,27 +81,10 @@
             animation: fadeUp 0.8s ease forwards;
         }
 
-        .hero-brand .logo-mark {
-            display: inline-flex;
-            flex-direction: column;
-            line-height: 1.05;
-            position: relative;
-        }
-
-        .hero-brand .logo-mark .logo-line {
-            font-family: 'DM Sans', sans-serif;
-            font-size: 22px;
-            font-weight: 700;
-            color: var(--navy);
-            letter-spacing: -0.3px;
-            display: block;
-        }
-
-        .hero-brand .logo-mark .logo-line.small {
-            font-size: 13px;
-            font-weight: 500;
-            color: var(--text-light);
-            letter-spacing: 0.5px;
+        .hero-logo {
+            height: 48px;
+            width: auto;
+            object-fit: contain;
         }
 
         .hero-brand .logo-divider {
@@ -650,10 +633,7 @@
     <div class="hero-top-bar"></div>
     <div class="hero-inner">
         <div class="hero-brand">
-            <span class="logo-mark">
-                <span class="logo-line">Transworld</span>
-                <span class="logo-line small">Business Advisors</span>
-            </span>
+            <img src="https://cdn.gorilladash.com/static/clients/tworld/images/logos/TBALogo_origin_2.png" alt="Transworld Business Advisors" class="hero-logo">
             <span class="logo-divider"></span>
             <span class="logo-by">Presented by<br>Sagan White Glove</span>
         </div>
@@ -731,10 +711,18 @@
             </div>
             <div class="doc-links">
                 <span class="doc-links-label">Materials</span>
-                <a href="https://drive.google.com/file/d/1tA83Wz1Ead6Iwg0hGdOlFwr9dDaiBBDK/view" target="_blank" class="doc-link primary">
+                <a href="resume-genevieve.html" target="_blank" class="doc-link primary">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
                     Resume
                 </a>
+                <a href="https://drive.google.com/file/d/1tA83Wz1Ead6Iwg0hGdOlFwr9dDaiBBDK/view" target="_blank" class="doc-link">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    Presentation Card
+                </a>
+                <span class="doc-link pending">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                    Intro Video (pending)
+                </span>
             </div>
             <div class="recruiter-note">
                 <div class="recruiter-note-label">Recruiter's Note</div>
@@ -768,9 +756,17 @@
             </div>
             <div class="doc-links">
                 <span class="doc-links-label">Materials</span>
-                <a href="https://drive.google.com/file/d/1RasEMucPeL735b38AG3I4amf3HO_e2P8/view" target="_blank" class="doc-link primary">
+                <a href="resume-peace.html" target="_blank" class="doc-link primary">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
                     Resume
+                </a>
+                <a href="https://drive.google.com/file/d/1RasEMucPeL735b38AG3I4amf3HO_e2P8/view" target="_blank" class="doc-link">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    Presentation Card
+                </a>
+                <a href="https://sagan-applicant-videos.84ecbbeef5d343a183e4ecefc49eff08.r2.dev/uploads/07a6f2a2-9a38-4e6d-8b4b-1f41e2b174ce" target="_blank" class="doc-link video">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                    Intro Video
                 </a>
             </div>
             <div class="recruiter-note">
@@ -805,9 +801,17 @@
             </div>
             <div class="doc-links">
                 <span class="doc-links-label">Materials</span>
-                <a href="https://drive.google.com/file/d/1rOIqhdxmlMFe3XujIoyr8RoQrp9DektR/view" target="_blank" class="doc-link primary">
+                <a href="resume-winnie.html" target="_blank" class="doc-link primary">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
                     Resume
+                </a>
+                <a href="https://drive.google.com/file/d/1rOIqhdxmlMFe3XujIoyr8RoQrp9DektR/view" target="_blank" class="doc-link">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    Presentation Card
+                </a>
+                <a href="https://sagan-applicant-videos.84ecbbeef5d343a183e4ecefc49eff08.r2.dev/uploads/969be143-b987-4861-9950-f7492f7fa36a" target="_blank" class="doc-link video">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                    Intro Video
                 </a>
             </div>
             <div class="recruiter-note">
@@ -842,10 +846,18 @@
             </div>
             <div class="doc-links">
                 <span class="doc-links-label">Materials</span>
-                <a href="https://drive.google.com/file/d/1R-qFoJUEcI-mzmsbmH7HeJfes20WqheZ/view" target="_blank" class="doc-link primary">
+                <a href="resume-geselle.html" target="_blank" class="doc-link primary">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
                     Resume
                 </a>
+                <a href="https://drive.google.com/file/d/1R-qFoJUEcI-mzmsbmH7HeJfes20WqheZ/view" target="_blank" class="doc-link">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    Presentation Card
+                </a>
+                <span class="doc-link pending">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                    Intro Video (pending)
+                </span>
             </div>
             <div class="recruiter-note">
                 <div class="recruiter-note-label">Recruiter's Note</div>
@@ -878,9 +890,17 @@
             </div>
             <div class="doc-links">
                 <span class="doc-links-label">Materials</span>
-                <a href="https://drive.google.com/file/d/1ocJcAmKYVfII4peXZ01CPPnbkkTF7p__/view" target="_blank" class="doc-link primary">
+                <a href="resume-felista.html" target="_blank" class="doc-link primary">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
                     Resume
+                </a>
+                <a href="https://drive.google.com/file/d/1ocJcAmKYVfII4peXZ01CPPnbkkTF7p__/view" target="_blank" class="doc-link">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                    Presentation Card
+                </a>
+                <a href="https://sagan-applicant-videos.84ecbbeef5d343a183e4ecefc49eff08.r2.dev/uploads/b07a9c44-e8dc-43de-a972-e81de11ded71" target="_blank" class="doc-link video">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                    Intro Video
                 </a>
             </div>
             <div class="recruiter-note">
